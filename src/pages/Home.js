@@ -18,7 +18,7 @@ const Home = () => {
     <>
       <Link to="/form"></Link>
       <div>
-        <h1>List of Students</h1>
+        <h1>Students</h1>
         <article>
           <ul>
             {students.map((student) => {
